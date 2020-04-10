@@ -11,3 +11,7 @@
 - Markdown language for README files
 - JavaScript ES6+ features
 - So far, I have learned how to use terminal.
+
+![Image Cat](images/cat.png)
+
+MY UO Website: https://pages.uoregon.edu/nkatz/281/
