@@ -11,3 +11,17 @@ let arrAVG = arr => {
 
   console.log(avg);
 };
+
+//Req. 3c
+
+let num = [2, 3, 5, 7, 9];
+let arrMax = numbers => {
+  let currentMaximum = -Infinity;
+  numbers.forEach(function(number) {
+    if (number > currentMaximum) {
+      currentMaximum = number;
+    }
+  });
+  return currentMaximum;
+};
+//arrMax(num)
