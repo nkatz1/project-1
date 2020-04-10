@@ -25,3 +25,16 @@ let arrMax = numbers => {
   return currentMaximum;
 };
 //arrMax(num)
+
+//Req 3d
+let arr_numbers = [1, 2, 3, 4, 5];
+let sumEvens = arr => {
+  sum = 0;
+  for (let i of arr) {
+    if (arr[i] % 2 == 0) {
+      sum += arr[i];
+    }
+  }
+  return sum;
+};
+//sumEvens(arr_numbers);
